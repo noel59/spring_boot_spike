@@ -1,3 +1,0 @@
-:tddium:
-  :tests:
-   - ./gradlew clean test
