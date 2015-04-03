@@ -20,7 +20,7 @@ class MahoutHealthCheck extends HealthCheck{
     }
 
     @Override
-    protected HealthCheck.Result check() throws Exception {
+    protected Result check() throws Exception {
 
         if (recommendationService && recommendationService.started) {
             DataModel model = recommendationService.recommender.dataModel
